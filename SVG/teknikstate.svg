@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="ur" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 432">
+  <defs>
+    <style>
+      .cls-1 {
+        text-decoration: underline;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        font-family: Helvetica, Helvetica;
+      }
+
+      .cls-1, .cls-3 {
+        font-size: 4.14px;
+      }
+
+      .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
+        stroke: #000;
+      }
+
+      .cls-4, .cls-6, .cls-7 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-9 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-10 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-7, .cls-8 {
+        fill: none;
+      }
+
+      .cls-11 {
+        stroke-width: 0px;
+      }
+
+      .cls-12 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        font-size: 3.8px;
+      }
+
+      .cls-2, .cls-3 {
+        isolation: isolate;
+      }
+    </style>
+  </defs>
+  <path class="cls-7" d="m248.47,28.53v15.06" pointer-events="stroke"/>
+  <path class="cls-4" d="m248.47,45.4l-1.21-2.42,1.21.6,1.21-.6-1.21,2.42Z" pointer-events="all"/>
+  <text class="cls-2" transform="translate(237.85 38.37)"><tspan x="0" y="0">window load</tspan></text>
+  <circle class="cls-11" cx="248.47" cy="23.36" r="5.18" pointer-events="all"/>
+  <path class="cls-6" d="m295.06,113.77v-8.45c0-2.88-1.44-4.31-4.31-4.31h-84.55c-2.88,0-4.31,1.44-4.31,4.31v8.45" pointer-events="all"/>
+  <path class="cls-7" d="m201.88,113.77v57.8c0,2.88,1.44,4.31,4.31,4.31h84.55c2.88,0,4.31-1.44,4.31-4.31v-57.8" pointer-events="none"/>
+  <path class="cls-7" d="m201.88,113.77h93.17" pointer-events="none"/>
+  <text class="cls-1" transform="translate(240.82 107.39)"><tspan x="0" y="0">startSpil</tspan></text>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(204.12 118.77)"><tspan x="0" y="0">Skjul andre skærme</tspan></text>
+  </g>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(204.12 125.68)"><tspan x="0" y="0">Nulstil point, liv og speed</tspan></text>
+  </g>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(204.12 132.58)"><tspan x="0" y="0">Skriv point og liv ud</tspan></text>
+  </g>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(204.12 139.48)"><tspan x="0" y="0">Nulstil musik</tspan></text>
+  </g>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(204.12 146.38)"><tspan x="0" y="0">Sæt musik og guide lyd på</tspan></text>
+  </g>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(204.12 153.28)"><tspan x="0" y="0">Skriv point ud</tspan></text>
+  </g>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(204.12 160.19)"><tspan x="0" y="0">Start timer -animation</tspan></text>
+  </g>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(204.12 167.09)"><tspan x="0" y="0">Random position, random delay og fast speed</tspan></text>
+  </g>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(204.12 173.99)"><tspan x="0" y="0">Start slide -animationer på elementer</tspan></text>
+  </g>
+  <path class="cls-7" d="m248.47,72.36v26.44" pointer-events="none"/>
+  <path class="cls-4" d="m248.47,100.62l-1.21-2.42,1.21.6,1.21-.6-1.21,2.42Z" pointer-events="none"/>
+  <text class="cls-2" transform="translate(233.21 87.72)"><tspan x="0" y="0">Klik på start_knap</tspan></text>
+  <path class="cls-6" d="m153.57,181.75v-8.45c0-2.88-1.44-4.31-4.31-4.31h-56.94c-2.88,0-4.31,1.44-4.31,4.31v8.45" pointer-events="none"/>
+  <path class="cls-7" d="m88,181.75v30.2c0,2.88,1.44,4.31,4.31,4.31h56.94c2.88,0,4.31-1.44,4.31-4.31v-30.2" pointer-events="none"/>
+  <path class="cls-7" d="m88,181.75h65.57" pointer-events="none"/>
+  <text class="cls-1" transform="translate(103.92 175.37)"><tspan x="0" y="0">kaninClickHandler</tspan></text>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(90.24 186.76)"><tspan x="0" y="0">Mister 1 liv</tspan></text>
+  </g>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(90.24 193.66)"><tspan x="0" y="0">Skriv liv ud</tspan></text>
+  </g>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(90.24 200.56)"><tspan x="0" y="0">Afspil lyd &quot;ah_nej&quot;</tspan></text>
+  </g>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(90.24 207.46)"><tspan x="0" y="0">Gør så man kun kan klikke 1 gang</tspan></text>
+  </g>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(90.24 214.36)"><tspan x="0" y="0">Start haha -animation</tspan></text>
+  </g>
+  <path class="cls-6" d="m272.62,58.56v-8.45c0-2.88-1.44-4.31-4.31-4.31h-39.69c-2.88,0-4.31,1.44-4.31,4.31v8.45" pointer-events="none"/>
+  <path class="cls-7" d="m224.31,58.56v9.49c0,2.88,1.44,4.31,4.31,4.31h39.69c2.88,0,4.31-1.44,4.31-4.31v-9.49" pointer-events="none"/>
+  <path class="cls-7" d="m224.31,58.56h48.31" pointer-events="none"/>
+  <text class="cls-1" transform="translate(238.32 52.17)"><tspan x="0" y="0">siden</tspan><tspan class="cls-9" x="9.9" y="0">V</tspan><tspan x="12.59" y="0">ises</tspan></text>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(226.55 63.56)"><tspan x="0" y="0">Skjul andre skærme</tspan></text>
+  </g>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(226.55 70.46)"><tspan class="cls-10" x="0" y="0">V</tspan><tspan class="cls-12" x="2.69" y="0">is start skærm</tspan></text>
+  </g>
+  <path class="cls-6" d="m153.57,251.81v-8.45c0-2.88-1.44-4.31-4.31-4.31h-56.94c-2.88,0-4.31,1.44-4.31,4.31v8.45" pointer-events="none"/>
+  <path class="cls-7" d="m88,251.81v30.2c0,2.88,1.44,4.31,4.31,4.31h56.94c2.88,0,4.31-1.44,4.31-4.31v-30.2" pointer-events="none"/>
+  <path class="cls-7" d="m88,251.81h65.57" pointer-events="none"/>
+  <text class="cls-1" transform="translate(110.25 245.42)"><tspan x="0" y="0">kaninReset</tspan></text>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(90.24 256.81)"><tspan class="cls-10" x="0" y="0">V</tspan><tspan class="cls-12" x="2.69" y="0">is element igen</tspan></text>
+  </g>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(90.24 263.71)"><tspan x="0" y="0">Ny random position, delay</tspan></text>
+  </g>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(90.24 270.61)"><tspan x="0" y="0">og fast speed</tspan></text>
+  </g>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(90.24 277.52)"><tspan x="0" y="0">Gør så man kan klikke igen</tspan></text>
+  </g>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(90.24 284.42)"><tspan x="0" y="0">Genstart slide -animation</tspan></text>
+  </g>
+  <path class="cls-7" d="m120.78,216.26v20.58" pointer-events="none"/>
+  <path class="cls-4" d="m120.78,238.65l-1.21-2.42,1.21.6,1.21-.6-1.21,2.42Z" pointer-events="none"/>
+  <text class="cls-2" transform="translate(100.04 228.51)"><tspan x="0" y="0">haha-animation færdig...</tspan></text>
+  <path class="cls-7" d="m201.88,134.48l-81.1.03v32.28" pointer-events="none"/>
+  <path class="cls-4" d="m120.78,168.6l-1.21-2.42,1.21.6,1.21-.6-1.21,2.42Z" pointer-events="none"/>
+  <text class="cls-2" transform="translate(113.33 135.34)"><tspan x="0" y="0">Klik på Kanin</tspan></text>
+  <path class="cls-7" d="m236.42,175.89v104.56h34.51v79.37h-6.46" pointer-events="none"/>
+  <path class="cls-4" d="m262.66,359.82l2.42-1.21-.6,1.21.6,1.21-2.42-1.21Z" pointer-events="none"/>
+  <text class="cls-2" transform="translate(245.91 306.16)"><tspan x="0" y="0">slide -animation kørt én gang</tspan></text>
+  <path class="cls-6" d="m370.98,196.59v-8.45c0-2.88-1.44-4.31-4.31-4.31h-56.94c-2.88,0-4.31,1.44-4.31,4.31v8.45" pointer-events="none"/>
+  <path class="cls-7" d="m305.41,196.59v37.1c0,2.88,1.44,4.31,4.31,4.31h56.94c2.88,0,4.31-1.44,4.31-4.31v-37.1" pointer-events="none"/>
+  <path class="cls-7" d="m305.41,196.59h65.57" pointer-events="none"/>
+  <text class="cls-1" transform="translate(322.14 190.21)"><tspan x="0" y="0">rotteClickHandler</tspan></text>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(307.65 201.6)"><tspan x="0" y="0">Får 1 point</tspan></text>
+  </g>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(307.65 208.5)"><tspan x="0" y="0">Skriv point ud</tspan></text>
+  </g>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(307.65 215.4)"><tspan x="0" y="0">Aktivér speed afhængig af point</tspan></text>
+  </g>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(307.65 222.3)"><tspan x="0" y="0">Afspil lyd &quot;fik_den&quot;</tspan></text>
+  </g>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(307.65 229.2)"><tspan x="0" y="0">Gør så man kun kan klikke 1 gang</tspan></text>
+  </g>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(307.65 236.11)"><tspan x="0" y="0">haha1 -animation</tspan></text>
+  </g>
+  <path class="cls-6" d="m370.98,269.06v-8.45c0-2.88-1.44-4.31-4.31-4.31h-56.94c-2.88,0-4.31,1.44-4.31,4.31v8.45" pointer-events="none"/>
+  <path class="cls-7" d="m305.41,269.06v23.29c0,2.88,1.44,4.31,4.31,4.31h56.94c2.88,0,4.31-1.44,4.31-4.31v-23.29" pointer-events="none"/>
+  <path class="cls-7" d="m305.41,269.06h65.57" pointer-events="none"/>
+  <text class="cls-1" transform="translate(328.47 262.68)"><tspan x="0" y="0">rotteReset</tspan></text>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(307.65 274.07)"><tspan class="cls-10" x="0" y="0">V</tspan><tspan class="cls-12" x="2.69" y="0">is element igen</tspan></text>
+  </g>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(307.65 280.97)"><tspan x="0" y="0">Ny random position</tspan></text>
+  </g>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(307.65 287.87)"><tspan x="0" y="0">Gør så man kan klikke igen</tspan></text>
+  </g>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(307.65 294.77)"><tspan x="0" y="0">Genstart slide -animation</tspan></text>
+  </g>
+  <path class="cls-7" d="m338.19,238v16.09" pointer-events="none"/>
+  <path class="cls-4" d="m338.19,255.91l-1.21-2.42,1.21.6,1.21-.6-1.21,2.42Z" pointer-events="none"/>
+  <text class="cls-2" transform="translate(317.44 248.53)"><tspan x="0" y="0">haha1 -animation færdig</tspan></text>
+  <path class="cls-7" d="m295.06,167.26h43.14v14.37" pointer-events="none"/>
+  <path class="cls-4" d="m338.19,183.44l-1.21-2.42,1.21.6,1.21-.6-1.21,2.42Z" pointer-events="none"/>
+  <text class="cls-2" transform="translate(301.77 166.4)"><tspan x="0" y="0">Klik på rotte</tspan></text>
+  <path class="cls-7" d="m248.47,175.89v84.55h54.74" pointer-events="none"/>
+  <path class="cls-4" d="m305.02,260.43l-2.42,1.21.6-1.21-.6-1.21,2.42,1.21Z" pointer-events="none"/>
+  <text class="cls-2" transform="translate(252.12 261.3)"><tspan x="0" y="0">slide -animation kørt en gang</tspan></text>
+  <path class="cls-7" d="m295.06,125.85h160.47v28.17" pointer-events="none"/>
+  <path class="cls-4" d="m455.52,155.83l-1.21-2.42,1.21.6,1.21-.6-1.21,2.42Z" pointer-events="none"/>
+  <text class="cls-2" transform="translate(307.46 126.71)"><tspan x="0" y="0">timer -animation færdig</tspan></text>
+  <path class="cls-6" d="m484.86,166.57v-1.73c0-5.75-2.88-8.63-8.63-8.63h-41.41c-5.75,0-8.63,2.88-8.63,8.63v1.73" pointer-events="none"/>
+  <path class="cls-7" d="m426.19,166.57v12.08c0,5.75,2.88,8.63,8.63,8.63h41.41c5.75,0,8.63-2.88,8.63-8.63v-12.08" pointer-events="none"/>
+  <path class="cls-7" d="m426.19,166.57h58.67" pointer-events="none"/>
+  <text class="cls-1" transform="translate(445.8 162.6)"><tspan x="0" y="0">stopSpillet</tspan></text>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(428.43 171.57)"><tspan x="0" y="0">Reset timer</tspan></text>
+  </g>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(428.43 178.47)"><tspan x="0" y="0">Fjern alle animationer og</tspan></text>
+  </g>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(428.43 185.38)"><tspan x="0" y="0">Fjern alle eventListerner-ere</tspan></text>
+  </g>
+  <path class="cls-7" d="m455.52,187.27v6.9h70.77v13.8h-1.28" pointer-events="none"/>
+  <path class="cls-4" d="m523.2,207.98l2.42-1.21-.6,1.21.6,1.21-2.42-1.21Z" pointer-events="none"/>
+  <text class="cls-2" transform="translate(485.52 195.04)"><tspan x="0" y="0">[point &gt;= 10]</tspan></text>
+  <path class="cls-6" d="m557.32,218.33h0c0-6.9-3.45-10.35-10.35-10.35h-48.31c-6.9,0-10.35,3.45-10.35,10.35h0" pointer-events="none"/>
+  <path class="cls-7" d="m488.31,218.33v17.25c0,6.9,3.45,10.35,10.35,10.35h48.31c6.9,0,10.35-3.45,10.35-10.35v-17.25" pointer-events="none"/>
+  <path class="cls-7" d="m488.31,218.33h69.02" pointer-events="none"/>
+  <text class="cls-1" transform="translate(509.52 214.36)"><tspan x="0" y="0">levelComplete</tspan></text>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(490.55 223.34)"><tspan class="cls-10" x="0" y="0">V</tspan><tspan class="cls-12" x="2.69" y="0">is levelcomplete skærm</tspan></text>
+  </g>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(490.55 230.24)"><tspan class="cls-10" x="0" y="0">V</tspan><tspan class="cls-12" x="2.69" y="0">is antal opnået point</tspan></text>
+  </g>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(490.55 237.14)"><tspan x="0" y="0">Fjern baggrundsmusik</tspan></text>
+  </g>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(490.55 244.04)"><tspan x="0" y="0">Start &quot;level_complete&quot; musik</tspan></text>
+  </g>
+  <path class="cls-7" d="m520.05,246.87l.03,9.42h-26.6v8.15" pointer-events="none"/>
+  <path class="cls-4" d="m493.48,266.26l-1.21-2.42,1.21.6,1.21-.6-1.21,2.42Z" pointer-events="none"/>
+  <path class="cls-6" d="m464.15,218.33h0c0-6.9-3.45-10.35-10.35-10.35h-48.31c-6.9,0-10.35,3.45-10.35,10.35h0" pointer-events="none"/>
+  <path class="cls-7" d="m395.13,218.33v17.25c0,6.9,3.45,10.35,10.35,10.35h48.31c6.9,0,10.35-3.45,10.35-10.35v-17.25" pointer-events="none"/>
+  <path class="cls-7" d="m395.13,218.33h69.02" pointer-events="none"/>
+  <text class="cls-1" transform="translate(419.8 214.36)"><tspan x="0" y="0">gameOver</tspan></text>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(397.37 223.34)"><tspan class="cls-10" x="0" y="0">V</tspan><tspan class="cls-12" x="2.69" y="0">is gameover skærm</tspan></text>
+  </g>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(397.37 230.24)"><tspan class="cls-10" x="0" y="0">V</tspan><tspan class="cls-12" x="2.69" y="0">is antal opnået point</tspan></text>
+  </g>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(397.37 237.14)"><tspan x="0" y="0">Fjern baggrundsmusik</tspan></text>
+  </g>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(397.37 244.04)"><tspan x="0" y="0">Start &quot;game_over&quot; musik</tspan></text>
+  </g>
+  <path class="cls-7" d="m455.52,187.27v6.9h-36.2l-.03,11.61" pointer-events="none"/>
+  <path class="cls-4" d="m419.29,207.59l-1.2-2.42,1.2.61,1.21-.6-1.21,2.41Z" pointer-events="none"/>
+  <text class="cls-2" transform="translate(428.36 195.04)"><tspan x="0" y="0">[ellers]</tspan></text>
+  <path class="cls-7" d="m426.19,180.37l.03-6.9h-20.71l-.03,32.31" pointer-events="none"/>
+  <path class="cls-4" d="m405.48,207.59l-1.2-2.42,1.21.6,1.21-.6-1.21,2.41Z" pointer-events="none"/>
+  <text class="cls-2" transform="translate(391.52 187.45)"><tspan x="0" y="0">[ingen liv tilbage]</tspan></text>
+  <circle class="cls-5" cx="403.76" cy="295.98" r="3.8" pointer-events="none"/>
+  <circle class="cls-8" cx="403.76" cy="295.98" r="5.18" pointer-events="none"/>
+  <circle class="cls-5" cx="493.48" cy="271.82" r="3.8" pointer-events="none"/>
+  <circle class="cls-8" cx="493.48" cy="271.82" r="5.18" pointer-events="none"/>
+  <path class="cls-7" d="m446.9,245.94l.03,41.41h179.45V87.2h-348.17v11.23" pointer-events="none"/>
+  <path class="cls-4" d="m278.19,100.24l-1.2-2.42,1.21.61,1.21-.6-1.21,2.42Z" pointer-events="none"/>
+  <text class="cls-2" transform="translate(432.59 278.55)"><tspan x="0" y="0">Klik på genstart1</tspan></text>
+  <path class="cls-7" d="m540.07,245.94h5.18v6.9h56.97V107.59h-305.75l.03-1.52" pointer-events="none"/>
+  <path class="cls-4" d="m296.46,107.88l-1.16-2.44,1.19.63,1.22-.58-1.26,2.39Z" pointer-events="none"/>
+  <text class="cls-2" transform="translate(548.54 253.7)"><tspan x="0" y="0">Klik på genstart2</tspan></text>
+  <path class="cls-7" d="m420.6,246.49l-.02,21.91h-16.82v20.2" pointer-events="none"/>
+  <path class="cls-4" d="m403.76,290.42l-1.21-2.42,1.21.6,1.21-.6-1.21,2.42Z" pointer-events="none"/>
+  <path class="cls-6" d="m295.06,372.59v-8.45c0-2.88-1.44-4.31-4.31-4.31h-56.94c-2.88,0-4.31,1.44-4.31,4.31v8.45" pointer-events="none"/>
+  <path class="cls-7" d="m229.49,372.59v37.1c0,2.88,1.44,4.31,4.31,4.31h56.94c2.88,0,4.31-1.44,4.31-4.31v-37.1" pointer-events="none"/>
+  <path class="cls-7" d="m229.49,372.59h65.57" pointer-events="none"/>
+  <text class="cls-1" transform="translate(245.75 366.2)"><tspan x="0" y="0">rotteSlideEnGang</tspan></text>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(231.73 377.59)"><tspan x="0" y="0">Mister 1 point</tspan></text>
+  </g>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(231.73 384.49)"><tspan x="0" y="0">Skriv point ud</tspan></text>
+  </g>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(231.73 391.4)"><tspan class="cls-10" x="0" y="0">V</tspan><tspan class="cls-12" x="2.69" y="0">is element igen</tspan></text>
+  </g>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(231.73 398.3)"><tspan x="0" y="0">Ny random position, delay</tspan></text>
+  </g>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(231.73 405.2)"><tspan x="0" y="0">og fast speed</tspan></text>
+  </g>
+  <g pointer-events="none">
+    <text class="cls-3" transform="translate(231.73 412.1)"><tspan x="0" y="0">Genstart slide -animation</tspan></text>
+  </g>
+  <path class="cls-7" d="m153.57,212.81h69.05v125.3h155.29v-202.6h62.93l.02,18.51" pointer-events="none"/>
+  <path class="cls-4" d="m440.86,155.83l-1.21-2.42,1.21.6,1.2-.6-1.2,2.42Z" pointer-events="none"/>
+  <text class="cls-2" transform="translate(198.16 213.67)"><tspan x="0" y="0">[Ingen liv tilbage]</tspan></text>
+</svg>

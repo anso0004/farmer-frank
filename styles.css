@@ -1,0 +1,393 @@
+/**************************** SPIL ***************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#screen {
+  width: 100%;
+  aspect-ratio: 16/9;
+  position: relative;
+  container-type: inline-size;
+}
+
+#start {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-image: url(SVG/spilforside1.svg);
+}
+#game_over {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-image: url(SVG/spilgameover.svg);
+}
+#level_complete {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(SVG/spillevelcomplete.svg);
+}
+
+#start_knap {
+  position: absolute;
+  background-image: url(SVG/Play_knap.svg);
+  aspect-ratio: 639/270;
+  width: 25%;
+  left: 48%;
+  top: 16%;
+  cursor: pointer;
+  animation-name: pulse_kf;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+#genstart1 {
+  position: absolute;
+  background-image: url(SVG/knapretry.svg);
+  aspect-ratio: 432/162;
+  width: 24%;
+  left: 70%;
+  top: 19.5%;
+  cursor: pointer;
+  background-size: cover;
+  animation-name: pulse_kf;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+#genstart2 {
+  position: absolute;
+  background-image: url(SVG/knapretry.svg);
+  aspect-ratio: 432/162;
+  width: 24%;
+  left: 70%;
+  top: 19.5%;
+  cursor: pointer;
+  background-size: cover;
+  animation-name: pulse_kf;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+@keyframes pulse_kf {
+  0% {
+    scale: 1;
+  }
+
+  100% {
+    scale: 1.2;
+  }
+}
+
+#level_complete_txt {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+  font-size: 8cqw;
+}
+
+#level_complete_points {
+  position: absolute;
+  bottom: 30%;
+  right: 40%;
+  font-size: 4cqw;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+#game_over_point {
+  position: absolute;
+  top: 24.5%;
+  left: 54%;
+  font-size: 3cqw;
+  font-family: "Lilita One", sans-serif;
+  color: #f4b63e;
+}
+
+#level_complete_point {
+  position: absolute;
+  top: 24.5%;
+  left: 52%;
+  font-size: 3cqw;
+  font-family: "Lilita One", sans-serif;
+  color: #f4b63e;
+}
+
+#game_background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-image: url(SVG/baggrund3.svg);
+}
+#game_elements {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#game_foreground {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-image: url(SVG/forgrund3.svg);
+  pointer-events: none;
+}
+
+#game_ui {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+#kanin_container,
+#kanin_container2,
+#kanin_container3 {
+  width: 15%;
+  aspect-ratio: 1207.86/698.79;
+  position: absolute;
+
+  left: -10%;
+}
+
+#kanin_sprite,
+#kanin_sprite2,
+#kanin_sprite3 {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(SVG/kaninen.svg);
+}
+
+.frys {
+  animation-play-state: paused;
+}
+
+.slide {
+  animation-name: slide_kf;
+  /* animation-duration: 10s; */
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slide_kf {
+  0% {
+    translate: -100% 0%;
+  }
+  100% {
+    translate: 800% 0%;
+  }
+}
+
+.haha_kanin {
+  animation-name: haha_kanin_kf;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
+@keyframes haha_kanin_kf {
+  0% {
+  }
+  15% {
+    scale: 1.2;
+  }
+  75% {
+    filter: drop-shadow(0px 0px 30px red);
+  }
+
+  100% {
+    filter: drop-shadow(0px 0px 30px red);
+  }
+}
+
+#rotte_container,
+#rotte_container2,
+#rotte_container3 {
+  width: 15%;
+  aspect-ratio: 135/115;
+  position: absolute;
+  left: -10%;
+}
+
+#rotte_sprite,
+#rotte_sprite2,
+#rotte_sprite3 {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(SVG/rotten.svg);
+}
+
+.haha_rotte {
+  animation-name: haha_rotte_kf;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
+@keyframes haha_rotte_kf {
+  0% {
+    opacity: 100%;
+  }
+  50% {
+    filter: blur(6px) grayscale(100%);
+  }
+  100% {
+    opacity: 0%;
+  }
+}
+
+.pos1 {
+  top: 40%;
+}
+
+.pos2 {
+  top: 45%;
+}
+
+.pos3 {
+  top: 50%;
+}
+
+.pos4 {
+  top: 55%;
+}
+
+.pos5 {
+  top: 60%;
+}
+
+.pos6 {
+  top: 65%;
+}
+
+.pos7 {
+  top: 70%;
+}
+
+.pos8 {
+  top: 75%;
+}
+
+.delay1 {
+  animation-delay: 0s;
+}
+.delay2 {
+  animation-delay: 0.5s;
+}
+.delay3 {
+  animation-delay: 1s;
+}
+.delay4 {
+  animation-delay: 1.5s;
+}
+
+#point {
+  position: absolute;
+  bottom: 42%;
+  left: 4.5%;
+  width: 20%;
+}
+
+/***** UR *****/
+#time_board {
+  position: relative;
+  margin: 5%;
+  width: 15%;
+  aspect-ratio: 270/261;
+  background-image: url(SVG/jernur.svg);
+  background-size: cover;
+  left: -6.9%;
+  top: -8%;
+}
+
+#time_viser {
+  position: absolute;
+  top: 38%;
+  left: 48%;
+  width: 2%;
+  height: 17%;
+  transform-origin: bottom center;
+  background-color: black;
+}
+
+.time_animation {
+  animation-name: timer_kf;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}
+@keyframes timer_kf {
+  to {
+    transform: rotate(360deg);
+    background-color: black;
+  }
+}
+
+#life_board {
+  color: white;
+  position: absolute;
+  bottom: 54%;
+  left: 3%;
+  width: 20%;
+}
+#liv1,
+#liv2,
+#liv3 {
+  width: 25%;
+  aspect-ratio: 408.52/326.75;
+  background-image: url(SVG/liv.svg);
+  background-size: cover;
+}
+#liv img {
+  width: 100%;
+}
+
+.gray {
+  filter: grayscale(80%);
+}
+
+.speed1 {
+  animation-duration: 10s;
+}
+
+.speed2 {
+  animation-duration: 7s;
+}
+
+.speed3 {
+  animation-duration: 5s;
+}
